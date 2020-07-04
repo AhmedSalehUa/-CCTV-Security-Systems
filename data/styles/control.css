@@ -1,0 +1,103 @@
+body {
+    margin-top: 0px;
+}
+
+.label {
+    color: #fff;
+    background-color: #4abcf4;
+    padding: 2px 4px;
+    position: absolute;
+    top: 9px;
+    right: 0px;
+    border-radius: 7px;
+}
+
+.fa {
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.navbar-top .navbar-nav>li>a,
+img {
+    width: 27px;
+    height: 27px;
+    margin-top: -10px;
+    position: relative;
+    top: 2px;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar>.container .navbar-brand,
+.navbar>.container-fluid .navbar-brand {
+    padding-left: 15px;
+    font-size: 22.5px;
+    background-color: #4abcf4;
+    color: #000;
+}
+
+.navbar-nav .open .dropdown-menu {
+    margin-top: 6px;
+    border-radius: 4px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-nav .open .dropdown-menu .dropdown-header:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.navbar-top .navbar-nav .dropdown-menu .list-dropdown-content {
+    width: 290px;
+    max-height: 259px;
+    padding-left: 0;
+    list-style: none;
+    overflow-y: auto;
+}
+
+.sidebar {
+    min-height: 1261px;
+    background-color: #273137;
+    padding-top: 10px;
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content-article {
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.content-article-div {
+    height: 200px;
+    background-color: #025706;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.card-name {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.card-value {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+}

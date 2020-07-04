@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Simon"
+AuthUserFile "/home4/acapytra/.htpasswds/public_html/simon/passwd"
+require valid-user

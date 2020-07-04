@@ -1,0 +1,236 @@
+    /* start global */
+    
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body {
+        font-family: helvetica, arial, sans-serif;
+        background: url(../img/back2.jpg) repeat;
+        background-color: #FFF;
+        background-size: cover;
+        color: #000;
+    }
+    /* end global */
+    /* start main */
+    
+    section {
+        width: 680px;
+        margin: 100px 0 100px 0;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+        color: #000;
+    }
+    
+    .content {
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-sizing: border-box;
+        width: 680px;
+        padding: 57px 65px 65px 65px;
+        position: absolute;
+        top: 0;
+    }
+    
+    section h2 {
+        display: block;
+        box-sizing: inherit;
+        width: 550px;
+        height: 35px;
+        font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    /* start table */
+    
+    section table tbody {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+        height: 500px;
+        margin-bottom: 40px;
+    }
+    
+    section table tbody tr {
+        margin: 10px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    
+    section table tbody tr td {
+        padding: 0px 10px 0 0;
+        margin: 10px;
+        width: 90%;
+        box-sizing: border-box;
+    }
+    /* start data of table */
+    
+    section table tbody tr input {
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        background-color: #FAFAFA;
+        border: 2px solid rgb(238, 237, 237);
+        margin: 0 10px 10px 0;
+        padding-left: 10px;
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 5px;
+        /* padding: 0 10px 0 10px; */
+        color: #000;
+        font-size: 16px;
+    }
+    
+    section table tbody tr input:hover {
+        border: 0px 0px 2px 0px;
+        border-bottom-color: #ff5a6e;
+    }
+    
+    section table tbody tr input:focus {
+        border-bottom: 2px solid;
+        border-color: #f56f7f;
+    }
+    
+    section table tbody tr button {
+        box-sizing: border-box;
+        width: 550px;
+        height: 50px;
+        background-color: #b8b8b8;
+        border: 2px solid #FAFAFA;
+        margin-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 5px;
+        padding: 0px;
+        color: #000;
+        font-size: 16px;
+    }
+    
+    section table tbody tr button:hover {
+        background-color: #ff5a6e;
+    }
+    /* .trImg {
+        position: absolute;
+    } */
+    /* check password styles starting */
+    
+    #checkDiv {
+        width: 181px;
+        height: 30px;
+        border: 2px solid #FAFAFA;
+        border-radius: 30px;
+        position: absolute;
+        float: right;
+        top: 36%;
+        left: 62.5%;
+    }
+    
+    #check {
+        height: 20px;
+        width: 10%;
+        position: absolute;
+        left: 83%;
+        top: 14%;
+    }
+    
+    #checkString {
+        width: 90%;
+        padding: 5px auto;
+        border-radius: 1px;
+        height: 25px;
+        position: absolute;
+        top: 26%;
+        left: 3%;
+    }
+    
+    #checkDivCon {
+        width: 181px;
+        height: 30px;
+        border: 2px solid #FAFAFA;
+        border-radius: 30px;
+        position: absolute;
+        float: right;
+        top: 44.3%;
+        left: 62.5%;
+    }
+    
+    #checkCon {
+        height: 20px;
+        width: 10%;
+        position: absolute;
+        left: 83%;
+        top: 14%;
+    }
+    
+    #checkStringCon {
+        width: 90%;
+        padding: 5px auto;
+        border-radius: 1px;
+        height: 25px;
+        position: absolute;
+        top: 26%;
+        left: 3%;
+    }
+    /* check password styles end */
+    
+    section table tbody tr input[type="radio"] {
+        box-sizing: border-box;
+        background-color: #dddcdc;
+        width: 10%;
+        height: 15px;
+        outline: none;
+        padding: 10px 0px 15px 0;
+        margin: 10px 0px 15px 0;
+        color: #000;
+    }
+    
+    section table tbody tr h5 {
+        cursor: default;
+        box-sizing: border-box;
+        display: inline;
+        background-color: #FFF;
+        padding: 0px;
+        margin: 0px;
+        font-size: 16px;
+        font-weight: lighter;
+        outline: none;
+        color: #000;
+    }
+    
+    section table tbody tr select {
+        box-sizing: border-box;
+        background-color: #FAFAFA;
+        border: 2px solid rgb(238, 237, 237);
+        width: 100%;
+        height: 50px;
+        outline: none;
+        margin: 0 10px 10px 0;
+        padding-left: 10px;
+        color: #000;
+        box-shadow: rgba(0, 0, 0, .08);
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    
+    section table tbody tr select:hover {
+        border: 2px solid;
+        border-color: #f56f7f;
+    }
+    
+    #login {
+        text-decoration: none;
+        color: #b8b8b8;
+    }
+    
+    #login:hover {
+        text-decoration: underline;
+        color: #f56f7f;
+    }
+    /* section table tbody tr select:hover {
+        background-color: #ff5a6e;
+    } */

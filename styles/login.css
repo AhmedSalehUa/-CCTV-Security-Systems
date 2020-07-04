@@ -1,0 +1,416 @@
+/* start global */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url(../img/back2.jpg) repeat;
+}
+
+
+/* end global */
+
+@media (min-width: 1200px) {
+    /* end global */
+    /* start conten */
+    section {
+        width: 500px;
+        background-color: #FFF;
+        border-radius: 10px;
+        margin: 220px auto;
+        padding: auto;
+        color: #000;
+    }
+    form {
+        box-sizing: border-box;
+        margin: 50px;
+        padding: 10px 10px 50px 10px;
+    }
+    form h2 {
+        font-size: 32px;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px 0;
+        font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+        font-weight: 400;
+    }
+    form table {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    form table tbody {
+        display: block;
+        box-sizing: border-box;
+        width: 376px;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    form table tbody tr {
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        padding: 0px;
+        margin: 10px;
+    }
+    form table tbody tr input {
+        height: 50px;
+        width: 376px;
+        padding-left: 10px;
+        margin: 0 10px 10px 0;
+        box-sizing: border-box;
+        background-color: #FAFAFA;
+        border: 2px solid rgb(238, 237, 237);
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        /* padding: 0 10px 0 10px; */
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input:hover {
+        border: 0px 0px 2px 0px;
+        border-bottom-color: #ff5a6e;
+    }
+    form table tbody tr input:focus {
+        border-bottom: 2px solid;
+        border-color: #f56f7f;
+    }
+    form table tbody tr input[type="submit"] {
+        box-sizing: border-box;
+        width: 376px;
+        height: 50px;
+        background-color: #dddcdc;
+        border: 2px solid #FAFAFA;
+        margin-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        padding: 0px;
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input[type="submit"]:hover {
+        background-color: #ff5a6e;
+    }
+    .reg {
+        padding: 0px;
+        margin: 0px;
+        height: 10px;
+    }
+    #regLink {
+        text-decoration: none;
+        color: #808080;
+    }
+    #regLink:hover {
+        text-decoration: underline;
+        color: #fd485e;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    section {
+        width: 500px;
+        background-color: #FFF;
+        border-radius: 10px;
+        margin: 220px auto;
+        padding: auto;
+        color: #000;
+    }
+    form {
+        box-sizing: border-box;
+        margin: 50px;
+        padding: 10px 10px 50px 10px;
+    }
+    form h2 {
+        font-size: 32px;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px 0;
+        font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+        font-weight: 400;
+    }
+    form table {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    form table tbody {
+        display: block;
+        box-sizing: border-box;
+        width: 376px;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    form table tbody tr {
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        padding: 0px;
+        margin: 10px;
+    }
+    form table tbody tr input {
+        height: 50px;
+        width: 376px;
+        padding-left: 10px;
+        margin: 0 10px 10px 0;
+        box-sizing: border-box;
+        background-color: #FAFAFA;
+        border: 2px solid rgb(238, 237, 237);
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        /* padding: 0 10px 0 10px; */
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input:hover {
+        border: 0px 0px 2px 0px;
+        border-bottom-color: #ff5a6e;
+    }
+    form table tbody tr input:focus {
+        border-bottom: 2px solid;
+        border-color: #f56f7f;
+    }
+    form table tbody tr input[type="submit"] {
+        box-sizing: border-box;
+        width: 376px;
+        height: 50px;
+        background-color: #dddcdc;
+        border: 2px solid #FAFAFA;
+        margin-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        padding: 0px;
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input[type="submit"]:hover {
+        background-color: #ff5a6e;
+    }
+    .reg {
+        padding: 0px;
+        margin: 0px;
+        height: 10px;
+    }
+    #regLink {
+        text-decoration: none;
+        color: #808080;
+    }
+    #regLink:hover {
+        text-decoration: underline;
+        color: #fd485e;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    section {
+        width: 500px;
+        background-color: #FFF;
+        border-radius: 10px;
+        margin: 300px auto;
+        padding: auto;
+        color: #000;
+    }
+    form {
+        box-sizing: border-box;
+        margin: 50px;
+        padding: 10px 10px 50px 10px;
+    }
+    form h2 {
+        font-size: 32px;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px 0;
+        font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+        font-weight: 400;
+    }
+    form table {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    form table tbody {
+        display: block;
+        box-sizing: border-box;
+        width: 376px;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    form table tbody tr {
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        padding: 0px;
+        margin: 10px;
+    }
+    form table tbody tr input {
+        height: 50px;
+        width: 376px;
+        padding-left: 10px;
+        margin: 0 10px 10px 0;
+        box-sizing: border-box;
+        background-color: #FAFAFA;
+        border: 2px solid rgb(238, 237, 237);
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        /* padding: 0 10px 0 10px; */
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input:hover {
+        border: 0px 0px 2px 0px;
+        border-bottom-color: #ff5a6e;
+    }
+    form table tbody tr input:focus {
+        border-bottom: 2px solid;
+        border-color: #f56f7f;
+    }
+    form table tbody tr input[type="submit"] {
+        box-sizing: border-box;
+        width: 376px;
+        height: 50px;
+        background-color: #dddcdc;
+        border: 2px solid #FAFAFA;
+        margin-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        padding: 0px;
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input[type="submit"]:hover {
+        background-color: #ff5a6e;
+    }
+    .reg {
+        padding: 0px;
+        margin: 0px;
+        height: 10px;
+    }
+    #regLink {
+        text-decoration: none;
+        color: #808080;
+    }
+    #regLink:hover {
+        text-decoration: underline;
+        color: #fd485e;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        max-width: 500px;
+        background-color: #FFF;
+        border-radius: 10px;
+        margin: auto;
+        margin-top: 200px;
+        padding: auto;
+        color: #000;
+    }
+    form {
+        box-sizing: border-box;
+        /*  margin: 50px 50px 50px 50px; */
+        padding: 10px 10px 50px 10px;
+    }
+    form h2 {
+        font-size: 32px;
+        text-align: center;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px 0;
+        font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+        font-weight: 400;
+    }
+    form table {
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    form table tbody {
+        box-sizing: border-box;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    form table tbody tr {
+        box-sizing: border-box;
+        width: 100%;
+        height: 50px;
+        padding: 0px;
+        margin: 10px;
+    }
+    form table tbody tr input {
+        height: 50px;
+        padding-left: 10px;
+        width: 100%;
+        margin: 0 10px 10px 0;
+        box-sizing: border-box;
+        background-color: #FAFAFA;
+        border: 2px solid rgb(238, 237, 237);
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        /* padding: 0 10px 0 10px; */
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input:hover {
+        border: 0px 0px 2px 0px;
+        border-bottom-color: #ff5a6e;
+    }
+    form table tbody tr input:focus {
+        border-bottom: 2px solid;
+        border-color: #f56f7f;
+    }
+    form table tbody tr input[type="submit"] {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        background-color: #dddcdc;
+        border: 2px solid #FAFAFA;
+        margin-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, .08);
+        outline: none;
+        border-radius: 10px;
+        padding: 0px;
+        color: #000;
+        font-size: 16px;
+    }
+    form table tbody tr input[type="submit"]:hover {
+        background-color: #ff5a6e;
+    }
+    .reg {
+        padding: 0px;
+        margin: 0px;
+        height: 10px;
+    }
+    #regLink {
+        text-decoration: none;
+        color: #808080;
+    }
+    #regLink:hover {
+        text-decoration: underline;
+        color: #fd485e;
+    }
+}
+
+.lang_form {
+    box-sizing: none;
+    margin: 0px;
+    padding: 0px;
+}
