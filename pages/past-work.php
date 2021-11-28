@@ -31,8 +31,10 @@ include '../languages/languageInPage.php' ?>
 </head>
 
 <body>
+ 
     <?php
-    include '../statics/nav-individual.php';
+    
+    
     include '../phpFormat/dataBaseIni.php';
 
     echo '<div id="carousel-example-generic" class="carousel slide carousel-slide-custome" data-ride="carousel">';
@@ -96,6 +98,7 @@ include '../languages/languageInPage.php' ?>
             </thead>
             <tbody>
                 <?php
+                $fakeId = 1;
                 $str = "SELECT * FROM `pastworks` ORDER BY name";
 
                 $q = mysqli_query($con, $str);
@@ -116,7 +119,8 @@ include '../languages/languageInPage.php' ?>
                     $carRow = mysqli_fetch_row($raesult);
                     echo "<tr class='pastworkid'>";
                     echo " <th  scope='row' class='pasid'>";
-                    echo  $row["id"];
+                    echo  $fakeId;
+                    $fakeId += 1;
                     echo "</th>";
                     echo "<th>";
                     echo $row['place_name'];
@@ -135,28 +139,13 @@ include '../languages/languageInPage.php' ?>
     <?php
     include '../statics/footer.php';
     ?>
-
-    <script>
-        document.getElementById("nav_works").innerHTML = "<?php echo lang('order'); ?>";
-        document.getElementById("nav_works").onclick = function() {
-            openLink('order.php', '<?php echo $language ?>', new Array('page'), new Array('1'));
-        }
-        if (sessionStorage.getItem("user_id") == null) {
-            document.getElementById("login_out").innerHTML = "<?php echo lang('login'); ?>";
-            document.getElementById("login_out").href = "login.php?lang=<?php echo $language ?>";
-        } else {
-            document.getElementById("login_out").innerHTML = "<?php echo lang('logout'); ?>";
-            document.getElementById("login_out").href = "logout.php?lang=<?php echo $language ?>";
-        }
-    </script>
+ 
     <script src="../scripts/jquery-3.4.1.min.js"></script>
     <script src="../scripts/bootstrap.min.js"></script>
     <script src="../scripts/main.js"></script>
     <?php
     include '../languages/languageChanger.php' ?>
-    <script>
-        document.getElementById("lang_form").action = "past-work.php"
-    </script>
+    
 
 </body>
 

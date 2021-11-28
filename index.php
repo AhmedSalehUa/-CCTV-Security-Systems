@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <?php 
-
+/*
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') {
     
 }else{
     echo '<script>window.open("https://acapy-trade.com", "_self");</script>'; 
-}
+}*/
 ?>
 <head>
     <meta charset="utf-8">
